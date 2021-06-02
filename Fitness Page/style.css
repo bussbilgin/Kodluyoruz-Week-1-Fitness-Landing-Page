@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    font-family: helvetica;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #dedede;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxone {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.boxtwo {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+nav h1 {
+    font-size: 45px;
+}
+
+nav img {
+    width: 15px;
+    float: right;
+}
+
+.front {
+    width: 100%;
+    height: 730px;
+    display: flex;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+.front-header {
+    width: 25%;
+    height: 400px;
+    margin-right: 20px;   
+    background-color: darkseagreen;
+}
+
+.front-header p {
+    font-size: 17px;
+    font-family: Helvetica;
+}
+.front-header span {
+    font-size: 56px;
+    font-family: 'Radley', serif;
+}
+
+.front-image-1 {
+    width: 60%;
+    height: 650px;
+}
+.front-image-1 img {
+    width: 100%;
+}
+
+.front-info {
+    width: 30%;
+    height: 500px;
+}
+
+.front-info-container {
+    width: 100%;
+    height: 100%;
+}
+
+.front-info-image {
+    width: 100%;
+    height: 250px;
+}
+
+.front-info-image img {
+    width: 405px;
+    height: 250px;
+}
+
+.front-info-1 {
+    width: 50%;
+    height: 250px;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.front-info-11 p {
+    color: #535353;
+    font-size: 18px;
+}
+
+.front-info-12 {
+    height: 35px;
+    font-size: 18px;
+    color: #535353;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #dedede;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #dedede;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.front-info-12 img {
+    width: 17px;
+}
+
+.front-info-13 {
+    height: 30px;
+    font-size: 18px;
+    color: #535353;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.front-info-131 {
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.front-info-131 img {
+    width: 14px;
+}
+
